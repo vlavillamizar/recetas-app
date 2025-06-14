@@ -1,0 +1,119 @@
+.App {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-left: 40px;
+  padding-right: 40px;
+  box-sizing: border-box;
+  max-width: 100%;
+  overflow-x: hidden;
+  gap: 20px;
+  flex-wrap: wrap; 
+}
+
+
+
+.recetas-title {
+  color: black;
+  text-align: left;
+  padding-left: 40px;
+  font-size: 28px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+
+.juntar {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 40px;
+  background-color: orange;
+  border-bottom: 4px solid #e57c00;
+  box-sizing: border-box;
+  gap:10px;
+}
+
+
+.search-style {
+  padding: 8px 12px;
+  font-size: 16px;
+  border: 2px solid #ec9727;
+  border-radius: 4px;
+  transition: border-color 0.3s;
+  margin: 0px;
+}
+
+
+.lista-recetas {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+
+.lista-recetas li {
+  margin-bottom: 12px;
+  padding: 10px;
+  background-color: #f5f5f5;
+  border-left: 5px solid orange;
+  border-radius: 4px;
+  font-size: 18px;
+  max-width: 600px;
+  transition: background 0.2s;
+
+ 
+  word-break: break-word;
+  overflow-wrap: break-word;
+}
+
+.lista-recetas li:hover {
+  background-color: #ffe3c4;
+  cursor: pointer;
+}
+
+
+.lista-cat {
+  list-style: none;
+  padding: 0;
+  text-align: right;
+}
+
+.categoria {
+  list-style: none;
+  padding: 0;
+  text-align: right;
+}
+
+
+.lista-cat li {
+  margin-bottom: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  color: #444;
+  transition: color 0.3s;
+}
+
+.lista-cat li:hover {
+  color: orange;
+  font-weight: bold;
+}
+
+
+.categoria-actual {
+  list-style: none;
+  padding: 0;
+  text-align: left;
+  padding-left: 40px;
+  flex: 3;
+  margin-top: 10px;
+}
+
+.menu-lateral {
+  width: 200px;
+  margin-top: 15px;
+}
+
+
